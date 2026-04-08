@@ -1,0 +1,25 @@
+body {
+    background-color: #ec9576;
+
+}
+
+div {
+    background-color: #f7dc92;
+    border: 5px solid #ba4e6f;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2 {
+    color:  #60547d;
+}
+p {
+    color: #77acba;
+}
+
+.subText {
+    font-size: 12px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
