@@ -1,0 +1,39 @@
+/* Specifying a tag*/
+
+body {
+    display: flex;
+    justify-content: center;
+
+    background-color: blanchedalmond;
+    /* VH = Viewport Height*/
+    height: 100vh;
+}
+
+
+/* specifying an id*/
+
+#mainContainer {
+    border: 5px solid black;
+
+    width: 1000px;
+    height: 800px;
+    background-color: salmon;
+
+}
+
+#header {
+
+}
+
+
+#navbar {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}
