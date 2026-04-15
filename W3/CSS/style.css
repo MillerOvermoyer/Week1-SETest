@@ -22,18 +22,110 @@ body {
 }
 
 #header {
+    height: 130px;
+    border: 5px solid black;
+    text-align: center; 
+
+    /*Declare animation name*/
+    animation-name: textColorChange;
+
+    /*Declare how long the animation will play*/
+    animation-duration: 3s;
+
+    /*Declare how many times to play the animation*/
+    animation-iteration-count: infinite;
+}
+h1:hover {
+    color: black;
+    font-size: 25px;
 
 }
 
+#navBar {
+    display: flex;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 
-#navbar {
-
+    padding: 25px;
 }
 
 #content {
+    height: 520px;
+    width: 650px;
 
+    text-align: center;
+
+    margin: auto;
+
+    border: 4px double burlywood;
+
+    padding-top: 10px;
+
+    animation-name: percentageAnimation;
+
+    animation-duration: 20s;
+
+    animation-iteration-count: infinite;
+}
+
+#loremIpsum {
+    /* font-size: 25px; */
 }
 
 #footer {
+
+}
+
+/* Specify by Class */
+.nav-btn {
+
+    border: 5px dotted seagreen;
+    padding: 10px;
+}
+
+@keyframes textColorChange {
+    from {
+        color: green;
+    }
+    to {
+        color: red;
+    }
+}
+
+@keyframes percentageAnimation {
+    0% {
+        font-size: 1px;
+        background-color: black;
+        border: 2px solid white;
+    }
+    15% {
+        font-size: 20px;
+        background-color: darkslateblue;
+        border: 5px dotted darkkhaki;
+    }
+    20% {
+        font-size: 67px;
+        background-color: goldenrod;
+        border: 0px solid white;
+    }
+    45% {
+        font-size: 10px;
+        background-color: khaki;
+        border: 10px solid blueviolet;
+    }
+    75% {
+        font-size: 25px;
+        background-color: pink;
+        border: 11px solid salmon;
+    }
+    100% {
+        font-size: 3px;
+        background-color: aquamarine;
+        border: 1px double peru;
+    }
 
 }
